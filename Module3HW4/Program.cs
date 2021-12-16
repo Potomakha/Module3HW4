@@ -6,7 +6,11 @@ namespace Module3HW4
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var task1 = new Task1();
+            var task2 = new Task2();
+            Console.WriteLine(task1.SumOfSum());
+
+            task2.LINQTesting();
         }
     }
 }
